@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+    <header>
+        <!-- .container-big>.logo+.links+.profile -->
+        <div class="container-big">
+            <div class="logo">
+                <i class="fa fa-cart-shopping"></i>
+                <a href="">
+                    <span>E</span> Grocery
+                </a>
+            </div>
+            <div class="links">
+                <a href="">Домой</a>
+                <a href="">Наши продукты</a>
+                <a href="">Категории</a>
+            </div>
+            <div class="profile">
+                <!-- a.circle.like+a.circle.cart+.avatar>a.photo+a.name{stepasha_2014}>i -->
+                <a href="" class="circle like">
+                    <i class="fa fa-heart"></i>
+                </a>
+                <a href="" class="circle cart">
+                    <i class="fa fa-cart-shopping"></i>
+                </a>
+                <div class="avatar">
+                    <a href="" class="photo circle"></a>
+                    <a href="" class="name">stepasha_2014<i class="fa fa-chevron-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-cart">
+            <div class="container-small header">
+                <div class="cart-header">
+                    <div class="left">
+                        <h1>Корзина</h1>
+                        <div class="select-all">
+                            <label for="select-all">Выбрать все</label>
+                            <input type="checkbox" checked id="select-all" >
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="" class="back-btn">
+                            <i class="fa fa-chevron-left"></i>
+                            Вернуться к покупкам
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-small-items">
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <input type="checkbox" class="item-checkbox">
+                        <img src="assets/images/pngwing.com.png" alt="">
+                        <div class="item-info">
+                            <h3>Капуста</h3>
+                            <p>1кг</p>
+                        </div>
+                        <div class="item-price">120₽</div>
+                        <div class="item-quantity">
+                            <button class="quantity-btn"><i class="fa fa-minus"></i></button>
+                            <span>1</span>
+                            <button class="quantity-btn"><i class="fa fa-plus"></i></button>
+                        </div>
+                        <div class="item-total">120₽</div>
+                        <button class="item-remove"><i class="fa fa-trash"></i></button>
+                    </div>
+                    <div class="cart-item">
+                        <input type="checkbox" class="item-checkbox">
+                        <img src="assets/images/клубника.png" alt="">
+                        <div class="item-info">
+                            <h3>Клубника</h3>
+                            <p>100г</p>
+                        </div>
+                        <div class="item-price">260₽</div>
+                        <div class="item-quantity">
+                            <button class="quantity-btn"><i class="fa fa-minus"></i></button>
+                            <span>1</span>
+                            <button class="quantity-btn"><i class="fa fa-plus"></i></button>
+                        </div>
+                        <div class="item-total">260₽</div>
+                        <button class="item-remove"><i class="fa fa-trash"></i></button>
+                    </div>
+                    <div class="cart-item">
+                        <input type="checkbox" class="item-checkbox">
+                        <img src="assets/images/картоха.png" alt="">
+                        <div class="item-info">
+                            <h3>Картофель</h3>
+                            <p>1кг</p>
+                        </div>
+                        <div class="item-price">60₽</div>
+                        <div class="item-quantity">
+                            <button class="quantity-btn"><i class="fa fa-minus"></i></button>
+                            <span>1</span>
+                            <button class="quantity-btn"><i class="fa fa-plus"></i></button>
+                        </div>
+                        <div class="item-total">60₽</div>
+                        <button class="item-remove"><i class="fa fa-trash"></i></button>
+                    </div>
+                </div>
+                    <div class="cart-item-price big">
+                        <div class="delivery">
+                            <h3>Доставка за 40 минут</h3>
+                            <a href="">
+                                <i class="fa fa-pencil"></i>
+                            </a>
+                        </div>
+                        <div class="summary-card">
+                            <div class="summary-row">
+                                <p>Товаров на</p>
+                                <p>440₽</p>
+                            </div>
+                            <div class="summary-row discount">
+                                <p>Скидка 11%</p>
+                                <p>-48,40₽</p>
+                            </div>
+                            <div class="summary-row">
+                                <p>Доставка</p>
+                                <p>49₽</p>
+                            </div>
+                            <div class="summary-row">
+                                <p>Сборка и упаковка</p>
+                                <p>29₽</p>
+                            </div>
+                            <div class="summary-choice">
+                                <a href="">
+                                    <img src="assets/images/credit-card_10724054 (1) — копия.png" alt="">
+                                    <img src="assets/images/sbp-Symbol-icon — копия.png" alt="">
+                                </a>
+                            </div>
+                            <div class="summary-total">
+                                <h3>К оплате</h3>
+                                <p>469,60₽</p>
+                            </div>
+                            <button class="checkout-btn">Оформить заказ<i class="fa fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-big">
+            <div class="logo">
+                <i class="fa fa-cart-shopping"></i>
+                <a href="">
+                    eGrocery
+                </a>
+            </div>
+            <div class="container-small">
+
+                <div class="links">
+                    <h7>Community</h7>
+                    <a href="">Answers</a>
+                    <a href="">Questions</a>
+                </div>
+                <div class="links">
+                    <h7>Our Team</h7>
+                    <a href="">Vacancies</a>
+                    <a href="">Director</a>
+                    <a href="">Community</a>
+                    <a href="">Previlegions</a>
+                </div>
+                <div class="links">
+                    <h7>Our products</h7>
+                    <a href="">Vegetables</a>
+                    <a href="">Meat</a>
+                    <a href="">Fruits</a>
+                    <a href="">Other</a>
+                </div>
+                <img src="assets/images/11d30cd0-6b59-4b9f-b008-b3af8044918b.jpg" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

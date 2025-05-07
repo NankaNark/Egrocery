@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+
+<body>
+    <header>
+        <!-- .container-big>.logo+.links+.profile -->
+        <div class="container-big">
+            <div class="logo">
+                <i class="fa fa-cart-shopping"></i>
+                <a href="">
+                    <span>E</span> Grocery
+                </a>
+            </div>
+            <div class="links">
+                <a href="">Домой</a>
+                <a href="">Наши продукты</a>
+                <a href="">Категории</a>
+            </div>
+            <div class="profile">
+                <!-- a.circle.like+a.circle.cart+.avatar>a.photo+a.name{stepasha_2014}>i -->
+                <a href="" class="circle like">
+                    <i class="fa fa-heart"></i>
+                </a>
+                <a href="" class="circle cart">
+                    <i class="fa fa-cart-shopping"></i>
+                </a>
+                <div class="avatar">
+                    <a href="" class="photo circle"></a>
+                    <a href="" class="name">stepasha_2014<i class="fa fa-chevron-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section section-welcome">
+            <div class="container-small">
+                <h1>
+                    Заказывайте наши товары <br>
+                    Выгодно, Быстро и Удобно</h1>
+                <p>#Бесплатаная доставка #Здоровая еда #Выгодные цены</p>
+                <form action="">
+                    <input type="text" placeholder="Поиск полезных продуктов" required>
+                    <button>Найти</button>
+                    <i class="fa fa-search"></i>
+                </form>
+            </div>
+        </section>
+        <section class="section section-category">
+            <div class="container-small title">
+                <div class="left">
+                    <a href="">
+                        <h2>Категории</h2>
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="right">
+                    <a href="" class="back disabled">
+                        <i class="fa fa-chevron-left"></i>
+                    </a>
+                    <a href="" class="forward enabled">
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="container-small category-cards">
+                <div class="card">
+                    <img src="./assets/images/banana-svgrepo-com.svg" alt="">
+                    <h3>Сухофрукты</h3>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/grapes-svgrepo-com.svg" alt="">
+                    <h3>Фрукты</h3>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/carrot-svgrepo-com.svg" alt="">
+                    <h3>Овощи</h3>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/cherry-svgrepo-com.svg" alt="">
+                    <h3>Ягоды</h3>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/chocolate-bar-svgrepo-com.png" alt="">
+                    <h3>Сладкое</h3>
+                </div>
+            </div>
+        </section>
+        <section class="section section-products">
+
+            <div class="container-small title">
+                <div class="left">
+                    <a href="">
+                        <h2>Популярные продукты</h2>
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="right">
+                    </a>
+                    <a href="" class="forward enabled" id="all_products">
+                        Все продукты
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="container-small grid-products">
+
+                <div class="col-1 card big">
+                    <h1>почему данные продукты популярны?</h1>
+                    <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Своего одна семантика переписали ее безорфографичный, несколько грустный взобравшись вопрос взгляд домах коварных, скатился запятых агентство рукописи великий образ. Родного.</p>
+                    <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Решила, однажды букв все ему которое дорогу своих эта щеке.</p>
+                    <a href="">
+                        <span>Узнать больше <br> о здоровом питани</span>
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="col-1 card">
+                    <img src="./assets/images/pngwing.com.png" alt="">
+                    <div class="product-title">
+                        <div class="left">
+                            <h3>Капуста</h3>
+                            <p>100г</p>
+                        </div>
+                        <div class="right">
+                            <a href="">-</a>
+                            <h4>1</h4>
+                            <a href="">+</a>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <h3>150₽</h3>
+                        <a href="">
+                            <i class="fa fa-bag-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-1 card">
+                    <img src="./assets/images/картоха.png" alt="">
+                    <div class="product-title">
+                        <div class="left">
+                            <h3>Картофель</h3>
+                            <p>100г</p>
+                        </div>
+                        <div class="right">
+                            <a href="">-</a>
+                            <h4>1</h4>
+                            <a href="">+</a>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <h3>150₽</h3>
+                        <a href="">
+                            <i class="fa fa-bag-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-1 card">
+                    <img src="./assets/images/клубника.png" alt="">
+                    <div class="product-title">
+                        <div class="left">
+                            <h3>Клубника</h3>
+                            <p>100г</p>
+                        </div>
+                        <div class="right">
+                            <a href="">-</a>
+                            <h4>1</h4>
+                            <a href="">+</a>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <h3>150₽</h3>
+                        <a href="">
+                            <i class="fa fa-bag-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-1 card">
+                    <img src="./assets/images/винишко.png" alt="">
+                    <div class="product-title">
+                        <div class="left">
+                            <h3>Виноград</h3>
+                            <p>100г</p>
+                        </div>
+                        <div class="right">
+                            <a href="">-</a>
+                            <h4>1</h4>
+                            <a href="">+</a>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <h3>150₽</h3>
+                        <a href="">
+                            <i class="fa fa-bag-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-comments">
+            <input type="radio" name="comment" id="comment-input-1" checked>
+            <input type="radio" name="comment" id="comment-input-2">
+            <input type="radio" name="comment" id="comment-input-3">
+            <div class="container-big hider">
+                <div class="line">
+                    <div class="comment">
+                        <div class="top">
+                            <div class="profile">
+                                <img src="./assets/images/avatar.jpeg" alt="">
+                                <div class="person">
+                                    <h3>Johnatan Doe</h3>
+                                    <p>Первый парень на деревне</p>
+                                </div>
+                            </div>
+                            <div class="stars">
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            </div>
+                        </div>
+                        <p class="bottom">Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Рот ipsum, моей до продолжил переулка то алфавит имени свое оксмокс одна рыбными раз несколько безопасную текстами наш решила путь даже гор переписали всемогущая? Гор, она вскоре? Однажды курсивных злых заголовок буквоград! Взгляд пунктуация сих ipsum, вопроса она выйти букв толку, гор семь меня, дороге что города все заглавных это.</p>
+                    </div>
+                    <div class="comment">
+                        <div class="top">
+                            <div class="profile">
+                                <img src="./assets/images/avatar.jpeg" alt="">
+                                <div class="person">
+                                    <h3>Johnatan Doe</h3>
+                                    <p>Первый парень на деревне</p>
+                                </div>
+                            </div>
+                            <div class="stars">
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            </div>
+                        </div>
+                        <p class="bottom">Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Рот ipsum, моей до продолжил переулка то алфавит имени свое оксмокс одна рыбными раз несколько безопасную текстами наш решила путь даже гор переписали всемогущая? Гор, она вскоре? Однажды курсивных злых заголовок буквоград! Взгляд пунктуация сих ipsum, вопроса она выйти букв толку, гор семь меня, дороге что города все заглавных это.</p>
+                    </div>
+                    <div class="comment">
+                        <div class="top">
+                            <div class="profile">
+                                <img src="./assets/images/avatar.jpeg" alt="">
+                                <div class="person">
+                                    <h3>Johnatan Doe</h3>
+                                    <p>Первый парень на деревне</p>
+                                </div>
+                            </div>
+                            <div class="stars">
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            </div>
+                        </div>
+                        <p class="bottom">Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Рот ipsum, моей до продолжил переулка то алфавит имени свое оксмокс одна рыбными раз несколько безопасную текстами наш решила путь даже гор переписали всемогущая? Гор, она вскоре? Однажды курсивных злых заголовок буквоград! Взгляд пунктуация сих ipsum, вопроса она выйти букв толку, гор семь меня, дороге что города все заглавных это.</p>
+                    </div>
+                    <div class="comment">
+                        <div class="top">
+                            <div class="profile">
+                                <img src="./assets/images/avatar.jpeg" alt="">
+                                <div class="person">
+                                    <h3>Johnatan Doe</h3>
+                                    <p>Первый парень на деревне</p>
+                                </div>
+                            </div>
+                            <div class="stars">
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            </div>
+                        </div>
+                        <p class="bottom">Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Рот ipsum, моей до продолжил переулка то алфавит имени свое оксмокс одна рыбными раз несколько безопасную текстами наш решила путь даже гор переписали всемогущая? Гор, она вскоре? Однажды курсивных злых заголовок буквоград! Взгляд пунктуация сих ipsum, вопроса она выйти букв толку, гор семь меня, дороге что города все заглавных это.</p>
+                    </div>
+                    <div class="comment">
+                        <div class="top">
+                            <div class="profile">
+                                <img src="./assets/images/avatar.jpeg" alt="">
+                                <div class="person">
+                                    <h3>Johnatan Doe5</h3>
+                                    <p>Первый парень на деревне</p>
+                                </div>
+                            </div>
+                            <div class="stars">
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            <div class="fa fa-star"></div>
+                            </div>
+                        </div>
+                        <p class="bottom">Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Рот ipsum, моей до продолжил переулка то алфавит имени свое оксмокс одна рыбными раз несколько безопасную текстами наш решила путь даже гор переписали всемогущая? Гор, она вскоре? Однажды курсивных злых заголовок буквоград! Взгляд пунктуация сих ipsum, вопроса она выйти букв толку, гор семь меня, дороге что города все заглавных это.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-big switches">
+                <label for="comment-input-1" id="label-comment-1">1</label>
+                <label for="comment-input-2" id="label-comment-2">2</label>
+                <label for="comment-input-3" id="label-comment-3">3</label>
+            </div>
+        </section>
+        <section class="section section-app">
+            <div class="container-small app">
+                <div class="qr">
+                    <img src="./assets/images/11d30cd0-6b59-4b9f-b008-b3af8044918b.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Download our APP</h3>
+                    <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Повстречался рекламных заглавных текстами города языком букв. Наш свое решила lorem единственное над повстречался взобравшись по всей вершину свою! Последний скатился, мир маленькая продолжил имеет над приставка океана проектах реторический взгляд, переписали грамматики использовало города путь, не знаках напоивший страну вскоре от всех ручеек семантика дороге всеми! Однажды взгляд осталось о ipsum.</p>
+                    <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Повстречался рекламных заглавных текстами города языком букв. Наш свое решила lorem единственное над повстречался взобравшись по всей вершину свою!</p>
+                    <div class="icon">
+                        <a href=""><img src="assets/images/Снимок экрана 2025-05-06 214723.png" alt=""></a>
+                        <a href=""><img src="assets/images/Снимок экрана 2025-05-06 214732.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- <div class="test-carousel">
+        <input type="radio" name="test-carousel" id="input-1" checked>
+        <input type="radio" name="test-carousel" id="input-2">
+        <input type="radio" name="test-carousel" id="input-3">
+        <label for="input-1" id="label-1">Кнопка 1</label>
+        <label for="input-2" id="label-2">Кнопка 2</label>
+        <label for="input-3" id="label-3">Кнопка 3</label>
+        <div class="carousel">
+            <div class="line">
+                <div class="slide">Слайд1</div>
+                <div class="slide">Слайд2</div>
+                <div class="slide">Слайд3</div>
+            </div> -->
+        </div>
+    </div>
+    <footer>
+    </footer>
+</body>
